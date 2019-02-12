@@ -35,3 +35,16 @@
 .category-menu li span:nth-of-type(2){
 	float: right;
 }
+
+#compare-menu-category {
+	margin-top: 32px;
+}
+
+#compare-menu-category li{
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.underline {
+	border-bottom: 2px solid #f0f0f0;
+}
