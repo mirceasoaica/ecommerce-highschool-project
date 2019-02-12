@@ -640,11 +640,18 @@ select:focus {
 	font-weight: 700;
 }
 
+.col-items .row{
+	padding-top: 0;
+	padding-right: 0;
+	padding-left: 0;
+}
+
 .items{
 	width: 255px;
 	position: relative;
 	border-radius: 10px;
 	box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.19);
+	transition: .5s;
 }
 
 .items:hover {
@@ -652,7 +659,7 @@ select:focus {
 }
 
 .items .details {
-	border: 2px solid #858994;
+	border: 2px solid #f0f0f0;
 	border-top: 0;
 	border-bottom-right-radius: 10px;
 	border-bottom-left-radius: 10px;
@@ -690,12 +697,12 @@ select:focus {
 	filter: blur(1px);
 }
 
-.item-type{
+.item-type {
 	text-transform: uppercase;
-	color: #858994;
-	background-color:#B6B6B6;
+	color: #bbc4d1;
+	background-color: #f0f0f0;
 	border-radius: 200px;
-	margin:auto;
+	margin: auto;
 	font-weight: 600;
 	height: 32px;
 	text-align: center;
@@ -725,7 +732,7 @@ select:focus {
 
 p[class="item-price crossed"]{
 	text-decoration: line-through;
-	color: #858994;
+	color: #bbc4d1;
 	font-weight: 400;
 }
 
@@ -733,10 +740,20 @@ p[class="item-price crossed"]{
 	padding-top: 25px;
 }
 
+.buttonz {
+	padding-bottom: 20px;
+}
+
+.buttonz div{
+	display: inline-block;
+	width: auto;
+	margin: 0 141px;
+}
+
 .buttonz div button{
 	text-transform: uppercase;
-	color: #858994;
-	background-color: #B6B6B6;
+	color: #bbc4d1;
+	background-color: #f0f0f0;
 	border-radius: 5px;
 	border: 0;
 	padding: 8px 16px;
@@ -744,12 +761,6 @@ p[class="item-price crossed"]{
 	margin: 0px 8px;
 	transition: all .5s;
 	cursor: pointer;
-}
-
-.buttonz div{
-	display: inline-block;
-	width: auto;
-	margin: 0 141px;
 }
 
 .buttonz div button:hover{

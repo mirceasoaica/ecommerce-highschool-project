@@ -43,7 +43,31 @@
 #compare-menu-category li{
 	padding-top: 12px;
 	padding-bottom: 12px;
+	position: relative;
 }
+
+#compare-menu-category li span:nth-of-type(2) {
+	position: absolute;
+	top: 16px;
+	right: -32px;
+	color: #bbc4d1;
+	background-color: #f0f0f0;
+	padding: 9px 8px;
+	border-radius: 24px;
+	line-height: 4px;
+	font-size: 10px;
+	text-transform: none;
+	cursor: pointer;
+	transition: background-color .5s, color .5s;
+}
+
+#compare-menu-category li span:nth-of-type(2):hover{
+	color: #EF5350;
+	border: 2px solid #f0f0f0;
+	background-color: white;
+	padding: 7px 6px;
+}
+
 
 .underline {
 	border-bottom: 2px solid #f0f0f0;
