@@ -497,11 +497,11 @@ select:focus {
 }
 
 .cart .price {
-	color: #858994;
+	color: #bbc4d1;
 }
 
 .cart .old-price {
-	color: #858994;
+	color: #bbc4d1;
 	text-decoration: line-through;
 }
 
@@ -599,7 +599,7 @@ select:focus {
 
 .container-5 .countdown{
 	padding-top: 20px;
-	border: 2px solid #858994;
+	border: 2px solid #bbc4d1;
 	border-bottom-left-radius:10px;
 	border-bottom-right-radius:10px;
 	border-top: 0px;
@@ -860,7 +860,7 @@ p[class="item-price crossed"]{
 
 .itemz .description-2 {
 	display: inline-block;
-	border: 2px solid #858994;
+	border: 2px solid #bbc4d1;
 	border-left: 0px;
 	position: relative;
 	height: 135px;
@@ -893,11 +893,12 @@ p[class="item-price crossed"]{
 
 .menu {
 	position: relative;
+	margin-bottom: 24px;
 }
 
 .menu span {
-	color: #858994;
-	border: 2px solid #B6B6B6;
+	color: #bbc4d1;
+	border: 2px solid #f0f0f0;
 	border-radius: 200px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -907,7 +908,7 @@ p[class="item-price crossed"]{
 }
 .line {
 	height: 2px;
-	background-color: #B6B6B6;
+	background-color: #f0f0f0;
 	width: 918px;
 	display: inline-block;
 	position: absolute;
@@ -917,25 +918,21 @@ p[class="item-price crossed"]{
 .menu .arrow {
 	width: 49px;
 	height: 49px;
-	background-color: #B6B6B6;
+	background-color: #f0f0f0;
 	border-radius: 200px;
 	display: inline-block;
 	position: absolute;
-	bottom: -14px;
+	bottom: -12px;
 	left: 965px;
 }
 
 .menu .arrow i{
-	color: #858994;
-	margin: 16px 19px;
+	color: #bbc4d1;
+	margin: 17px 20px;
 }
 
 .menu .right {
 	left: 1065px !important;
-}
-
-.menu-row {
-	margin-top: 24px;
 }
 
 .small {
