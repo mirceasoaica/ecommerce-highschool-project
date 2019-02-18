@@ -668,12 +668,12 @@ select:focus {
 .items button {
 	position: absolute;
     top: 172px;
-    right: 64px;
+    right: 68px;
     opacity: 0;
     padding: 10px 20px;
 	font-size: 12px;
 	font-weight: 600;
-    background-color: #0057FF;
+    background-color: #2A9CF5;
     color: white;
     border-radius: 200px;
     border: 0;
@@ -720,7 +720,7 @@ select:focus {
 }
 
 .item-price {
-	color: #0057FF;
+	color: #2A9CF5;
 	font-weight: 500;
 	margin: auto;
 	padding: 4px;
@@ -731,6 +731,12 @@ select:focus {
 }
 
 p[class="item-price crossed"]{
+	text-decoration: line-through;
+	color: #bbc4d1;
+	font-weight: 400;
+}
+
+span[class="item-price crossed"]{
 	text-decoration: line-through;
 	color: #bbc4d1;
 	font-weight: 400;
@@ -765,7 +771,7 @@ p[class="item-price crossed"]{
 
 .buttonz div button:hover{
 	color: white;
-	background-color: #0057FF; 
+	background-color: #2A9CF5; 
 
 }
 
@@ -794,7 +800,7 @@ p[class="item-price crossed"]{
 
 .buttonzz .selected {
 	color: white !important;
-	background-color: #0057FF !important;
+	background-color: #2A9CF5 !important;
 }
 
 #promo .items .details{
@@ -872,7 +878,7 @@ p[class="item-price crossed"]{
 }
 
 
-.itemz .stars i {
+.stars i {
 	color: #FFD800;
 }
 
@@ -938,7 +944,7 @@ p[class="item-price crossed"]{
 .small {
 	font-size: 18px;
 	text-transform: uppercase;
-	color: #0057FF;
+	color: #2A9CF5;
 	letter-spacing: 1px;
 	font-weight: 600;
 	margin-bottom: 0;

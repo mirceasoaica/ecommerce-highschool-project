@@ -1,0 +1,86 @@
+#main-item {
+	margin-top: 96px;
+}
+
+#product-description {
+	padding-left: 36px;
+}
+
+.rating .stars {
+	display: inline-block;
+}
+
+#product-review {
+	display: inline-block;
+	margin-left: 12px;
+}
+
+#product-review span{
+	font-size: 12px;
+	color: #949CA6;
+}
+
+#product-review span:first-of-type{
+	font-size: 16px;
+}
+
+#product-orders {
+	position: relative;
+	display: inline-block;
+	background-color: #2A9CF5;
+	color: white;
+	letter-spacing: 1px;
+	font-size: 16px;
+	font-weight: 600;
+	margin-left: 36px;
+	border-radius: 5px;
+	padding: 8px 0;
+}
+
+#product-orders::after {
+	content: " ";
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	background-color: #2A9CF5;
+	transform: rotate(45deg);
+	border-radius: 4px;
+	left:-4px;
+	top: 14px;
+}
+
+#product-orders span {
+	padding: 0 24px; 
+}
+
+#product-title {
+	margin-top: 24px;
+}
+
+#product-title span {
+	font-size: 27px;
+	font-weight: 500;
+	display: inline-block;
+	letter-spacing: 1px;
+}
+
+#product-title span:first-of-type{
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #2A9CF5;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+#product-price {
+	margin-top: 32px;
+}
+
+#product-price span{
+	font-size: 48px;
+	width: auto;
+}
+
+#product-price .crossed {
+	margin-left: 16px;
+}

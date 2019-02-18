@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<title>Site Blana | Product Details</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html>
+<head>
 	<meta charset="utf-8">
 	<script type="text/javascript" src="testSite.js"></script>
 	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="testSite.css">
 	<link rel="stylesheet" type="text/css" href="category.css">
+	<link rel="stylesheet" type="text/css" href="product-details.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 	<title>Site Blana | Category</title>
 </head>
 <body>
-<div class="container" id="top-bar">
+	<div class="container" id="top-bar">
 		<div class="row">
 			<div class="col-12">
 				<div class="left-content-area">
@@ -181,7 +188,7 @@
 								<ul>
 									<li><a href="category.html">Category</a></li>
 									<li>Cart</li>
-									<li><a href="product-details.html">Product Details</a></li>
+									<li>Product Details</li>
 									<li>Signup</li>
 									<li>Sellers Products</li>
 									<li>Sellers Dashboard</li>
@@ -296,236 +303,38 @@
 	</div>
 
 	<div id="category-title">
-			<p>Category</p>
+		<p>product details</p>
 	</div>
 
-	<div class="container" id="products-category">
+	<div class="container" id="main-item">
 		<div class="row">
-			<div class="col-3">
-				<div class="category-menu">
-					<ul>
-						<li>
-							<span>filter by</span>
-							<span>+</span>
-						</li>
-						<li>
-							<span>brand</span>
-							<span>+</span>
-						</li>
-						<li>
-							<span>generation</span>
-							<span>+</span>
-						</li>
-						<li>
-							<span>sockets</span>
-							<span>+</span>
-						</li>
-						<li>
-							<span>number of cores</span>
-							<span>+</span>
-						</li>
-						<li>
-							<span>clock speed</span>
-							<span>+</span>
-						</li>
-						<li>
-							<span>processor type</span>
-							<span>+</span>
-						</li>
-						<li>
-							<span>cache memory</span>
-							<span>+</span>
-						</li>
-						<li>
-							<span>others</span>
-							<span>+</span>
-						</li>
-						<li>
-							<span>price</span>
-							<span>+</span>
-						</li>
-					</ul>
-				</div>
-
-				<div class="category-menu" id="compare-menu-category">
-					<ul>
-						<li>
-							<span>compare (3)</span>
-						</li>
-						<li class="underline">
-							<span>Intel kaby lake core i3 7100 3.90GHZ 3MB.</span>
-							<span>x</span>
-						</li>
-						<li class="underline">
-							<span>Intel kaby lake core i3 7100 3.90GHZ 3MB.</span>
-							<span>x</span>
-						</li>
-						<li>
-							<span>Intel kaby lake core i3 7100 3.90GHZ 3MB.</span>
-							<span>x</span>
-						</li>
-					</ul>
-				</div>
+			<div class="col-6">
+				<img src="http://idealbrothers.thesoftking.com/html/bigenza/bigenja/assets/img/product-details/03.jpg">
 			</div>
-			<div class="col-9 col-items">
-				<div class="menu" id="category-select">
-					<span>cloths</span>
-					<div class="select-container">
-						<select>
-							<option><span>Show</span></option>
-							<option><span>Hide</span></option>
-							<option><span>Show</span></option>
-						</select>
-						<i class="fas fa-angle-down"></i>
-					</div>
-					<div class="select-container">
-						<select>
-							<option><span>Short by</span></option>
-							<option><span>Price</span></option>
-							<option><span>Ratings</span></option>
-						</select>
-						<i class="fas fa-angle-down"></i>
-					</div>
-					<div class="line"></div>
-					<div class="arrow">
-						<i class="fas fa-th-large"></i>
-					</div>
-					<div class="arrow right">
-						<i class="fas fa-th-list"></i>
-					</div>
-				</div>
 
-				<div class="row">
-					<div class="col-4">
-						<div class="items">
-							<img src="resources/images/kim.png">
-							<button>ADD TO CART</button>
-							<div class="details">
-								<p class="item-type">pokemon</p>
-								<p class="item-name">Kimachu</p>
-								<div>
-									<p class="item-price">-126$</p>
-									<p class="item-price crossed">-3$</p>
-								</div>
-							</div>
-						</div>
+			<div class="col-6" id="product-description">
+				<div class="rating">
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+						<i class="far fa-star"></i>
 					</div>
-					<div class="col-4">
-						<div class="items">
-							<img src="resources/images/trump.png">
-							<button>ADD TO CART</button>
-							<div class="details">
-								<p class="item-type">pokemon</p>
-								<p class="item-name">Trumpypuff</p>
-								<div>
-									<p class="item-price">500$</p>
-									<p class="item-price crossed">12 LEI</p>
-								</div>
-							</div>
-						</div>
+					<div id="product-review">
+						<span>23</span>
+						<span>reviews</span>
 					</div>
-					<div class="col-4">
-						<div class="items">
-							<img src="resources/images/iohannis.png">
-							<button>ADD TO CART</button>
-							<div class="details">
-								<p class="item-type">pokemon</p>
-								<p class="item-name">Iohannditto</p>
-								<div>
-									<p class="item-price">1 pensie</p>
-									<p class="item-price crossed">2 pensii</p>
-								</div>
-							</div>
-						</div>
+					<div id="product-orders">
+						<span>Orders (200+)</span>
 					</div>
-				</div>
-
-				<div class="row">
-					<div class="col-4">
-						<div class="items">
-							<img src="resources/images/hitler.png">
-							<button>ADD TO CART</button>
-							<div class="details">
-								<p class="item-type">purificator</p>
-								<p class="item-name">Hitler (de evrei)</p>
-								<div>
-									<p class="item-price">Doar evrei</p>
-									<p class="item-price crossed">Scrumiera cu evrei</p>
-								</div>
-							</div>
-						</div>
+					<div id="product-title">
+						<span>accessories</span>
+						<span>Wireless Audio System Multiroom 360</span>
 					</div>
-					<div class="col-4">
-						<div class="items">
-							<img src="resources/images/vadim.png">
-							<button>ADD TO CART</button>
-							<div class="details">
-								<p class="item-type">purificator</p>
-								<p class="item-name">Vadim Tudor (de unguri)</p>
-								<div>
-									<p class="item-price">Un Kürtőskalács</p>
-									<p class="item-price crossed">O pitica nenorocita</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-4">
-						<div class="items">
-							<img src="resources/images/dragnea.png">
-							<button>ADD TO CART</button>
-							<div class="details">
-								<p class="item-type">purificator</p>
-								<p class="item-name">Dragnea (de bani)</p>
-								<div>
-									<p class="item-price">Tot ∞ dar mai ieftin</p>
-									<p class="item-price crossed">∞</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-4">
-						<div class="items">
-							<img src="resources/images/hitler.png">
-							<button>ADD TO CART</button>
-							<div class="details">
-								<p class="item-type">purificator</p>
-								<p class="item-name">Hitler (de evrei)</p>
-								<div>
-									<p class="item-price">Doar evrei</p>
-									<p class="item-price crossed">Scrumiera cu evrei</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-4">
-						<div class="items">
-							<img src="resources/images/vadim.png">
-							<button>ADD TO CART</button>
-							<div class="details">
-								<p class="item-type">purificator</p>
-								<p class="item-name">Vadim Tudor (de unguri)</p>
-								<div>
-									<p class="item-price">Un Kürtőskalács</p>
-									<p class="item-price crossed">O pitica nenorocita</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-4">
-						<div class="items">
-							<img src="resources/images/dragnea.png">
-							<button>ADD TO CART</button>
-							<div class="details">
-								<p class="item-type">purificator</p>
-								<p class="item-name">Dragnea (de bani)</p>
-								<div>
-									<p class="item-price">Tot ∞ dar mai ieftin</p>
-									<p class="item-price crossed">∞</p>
-								</div>
-							</div>
-						</div>
+					<div id="product-price">
+						<span class="item-price">420$</span>
+						<span class="item-price crossed">575$</span>
 					</div>
 				</div>
 			</div>
@@ -602,5 +411,6 @@
 			</div>
 		</div>
 	</div>
+
 </body>
 </html>
