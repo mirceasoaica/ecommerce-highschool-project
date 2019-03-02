@@ -730,6 +730,10 @@ select:focus {
 	display: inline-block;
 }
 
+#promo {
+	display: none;
+}
+
 p[class="item-price crossed"]{
 	text-decoration: line-through;
 	color: #bbc4d1;

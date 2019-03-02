@@ -1,5 +1,6 @@
 #main-item {
 	margin-top: 96px;
+	margin-bottom: 20px;
 }
 
 #product-description {
@@ -83,4 +84,144 @@
 
 #product-price .crossed {
 	margin-left: 16px;
+}
+
+#product-status div {
+	display: block;
+	width: 50%;
+}
+
+#product-status div span{
+	float: right;
+	color: #A1A9B5;
+}
+
+#product-status div span:first-of-type{
+	float: none;
+	color: inherit;
+	font-weight: 700;
+}
+
+#in-stock {
+	color: #2A9CF5 !important;
+}
+
+#size-chart {
+	float: right;
+	background-color: #f0f0f0;
+	border: 0;
+	color: #bbc4d1;
+	font-weight: 900;
+	padding: 10px 24px;
+	border-radius: 8px;
+	margin-top: 22px;
+	letter-spacing: 2px;
+	font-size: 12px;
+	transition: all .5s;
+}
+
+#size-chart:hover {
+	background-color: #2A9CF5;
+	color: white;
+}
+
+#product-overview {
+	margin-top: 24px;
+}
+
+#product-overview p{
+	color: #bbc4d1;
+}
+
+#product-overview p:first-of-type{
+	font-size: 32px;
+	margin-bottom: 4px;
+	color: black;
+}
+
+#product-image-choice {
+	width: 540px;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+#product-image-choice img {
+	margin: auto;
+}
+
+#product-image-choice img:first-of-type{
+	margin-right: 24px;
+}
+
+#product-image-choice img:nth-of-type(3){
+	margin-left: 24px;
+	border: solid #2A9CF5 2px;
+}
+
+#product-add-to-cart {
+	display: inline-block;
+	margin-left: 28px;
+}
+
+#product-quantity {
+	border-radius: 10px;
+	border: solid #f0f0f0 2px;
+	color: #bbc4d1;
+	display: inline-block;
+	padding: 4px;
+	cursor: pointer;
+}
+
+#product-quantity span{
+	padding: 6px 10px;
+	font-weight: 600;
+}
+
+#product-quantity span:first-of-type{
+	border-right: solid #f0f0f0 2px;
+}
+
+#product-quantity span:nth-of-type(3){
+	border-left: solid #f0f0f0 2px;
+}
+
+#product-buttons {
+	display: inline-block;
+}
+
+#product-buttons i{
+	margin-left: 8px;
+	background-color: #f0f0f0;
+	color: #bbc4d1;
+	border-radius: 10px;
+	transition: all .5s;
+}
+
+#product-buttons i:hover{
+	background-color: #2A9CF5;
+	color: white;
+}
+
+#product-buttons .fa-heart {
+	padding: 10px;
+}
+
+#product-buttons .fa-hourglass{
+	padding: 10px 12px;
+}
+
+#product-buttons .fa-share-square {
+	padding: 10px 9px;
+}
+
+#product-add-to-cart-button{
+	display: block;
+	border: 0;
+	border-radius: 10px;
+	color: white;
+	background-color: #2A9CF5;
+	letter-spacing: 2px;
+	font-weight: 800;
+	margin-top: 18px;
+	padding: 12px 36px;
 }
