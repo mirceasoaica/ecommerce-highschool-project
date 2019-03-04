@@ -2,15 +2,17 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="cart.css">
 	<script type="text/javascript" src="testSite.js"></script>
 	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="testSite.css">
 	<link rel="stylesheet" type="text/css" href="category.css">
+	<link rel="stylesheet" type="text/css" href="product-details.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-	<title>Site Blana | Category</title>
+	<title>Site Blana | Cart</title>
 </head>
 <body>
-<div class="container" id="top-bar">
+	<div class="container" id="top-bar">
 		<div class="row">
 			<div class="col-12">
 				<div class="left-content-area">
@@ -180,8 +182,8 @@
 								<span>Inner Pages</span>
 								<ul>
 									<li><a href="category.html">Category</a></li>
-									<li><a href="cart.html">Cart</a></li>
-									<li><a href="product-details.html">Product Details</a></li>
+									<li>Cart</li>
+									<li>Product Details</li>
 									<li>Signup</li>
 									<li>Sellers Products</li>
 									<li>Sellers Dashboard</li>
@@ -294,245 +296,68 @@
 					</div>	
 				</div>
 	</div>
-
 	<div id="category-title">
-			<p>Category</p>
+		<p>cart</p>
 	</div>
 
-	<div class="container" id="products-category">
-		<div class="row">
-			<div class="col-3">
-				<div class="category-menu">
-					<ul>
-						<li>
-							<span>filter by</span>
-							<span>+</span>
-						</li>
-						<li>
-							<span>brand</span>
-							<span>+</span>
-						</li>
-						<li>
-							<span>generation</span>
-							<span>+</span>
-						</li>
-						<li>
-							<span>sockets</span>
-							<span>+</span>
-						</li>
-						<li>
-							<span>number of cores</span>
-							<span>+</span>
-						</li>
-						<li>
-							<span>clock speed</span>
-							<span>+</span>
-						</li>
-						<li>
-							<span>processor type</span>
-							<span>+</span>
-						</li>
-						<li>
-							<span>cache memory</span>
-							<span>+</span>
-						</li>
-						<li>
-							<span>others</span>
-							<span>+</span>
-						</li>
-						<li>
-							<span>price</span>
-							<span>+</span>
-						</li>
-					</ul>
+	<div class="container" id="cart-content">
+		<div class="row" id="cart-headlines">
+			<div class="col-7"><p>Item</p></div>
+			<div class="col-5">
+				<p>Price</p>
+				<p>Quantity</p>
+				<p>Total</p>
+			</div>
+		</div>
+		<div class="row" id="cart-item">
+			<div class="col-7">
+				<div>
+					<span>x</span>
 				</div>
+				<img src="http://idealbrothers.thesoftking.com/html/bigenza/bigenja/assets/img/cart/01.jpg">
+				<div id="cart-item-name"><p>Wireless Audio System Multiroom 360</p></div>
+			</div>
+			<div class="col-5">
+				<div id="cart-item-price-wrapper">
+					<span class="item-price">1980$</span>
 
-				<div class="category-menu" id="compare-menu-category">
-					<ul>
-						<li>
-							<span>compare (3)</span>
-						</li>
-						<li class="underline">
-							<span>Intel kaby lake core i3 7100 3.90GHZ 3MB.</span>
-							<span>x</span>
-						</li>
-						<li class="underline">
-							<span>Intel kaby lake core i3 7100 3.90GHZ 3MB.</span>
-							<span>x</span>
-						</li>
-						<li>
-							<span>Intel kaby lake core i3 7100 3.90GHZ 3MB.</span>
-							<span>x</span>
-						</li>
-					</ul>
+					<div id="product-quantity">
+						<span>-</span>
+						<span>1</span>
+						<span>+</span>
+					</div>
+
+					<span class="item-price">1980$</span>
 				</div>
 			</div>
-			<div class="col-9 col-items">
-				<div class="menu" id="category-select">
-					<span>cloths</span>
-					<div class="select-container">
-						<select>
-							<option><span>Show</span></option>
-							<option><span>Hide</span></option>
-							<option><span>Show</span></option>
-						</select>
-						<i class="fas fa-angle-down"></i>
+		</div>
+		<div class="row" id="cart-checkout">
+			<input placeholder="COUPON CODE" type="text" name="coupon-code" id="cart-coupon-input">
+			<button class="checkout-button">APPLY COUPON</button>
+			<button class="checkout-button">CHECKOUT</button>
+			<div class="col-7"></div>
+			<div class="col-5">
+				<div id="product-status">
+					<div>
+						<span>Subtotal:</span>
+						<span>1980$</span>
 					</div>
-					<div class="select-container">
-						<select>
-							<option><span>Short by</span></option>
-							<option><span>Price</span></option>
-							<option><span>Ratings</span></option>
-						</select>
-						<i class="fas fa-angle-down"></i>
+					<div>
+						<span>Shipping:</span>
+						<span>20$</span>
 					</div>
-					<div class="line"></div>
-					<div class="arrow">
-						<i class="fas fa-th-large"></i>
+					<div>
+						<span>Tax:</span>
+						<span>198$</span>
 					</div>
-					<div class="arrow right">
-						<i class="fas fa-th-list"></i>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col-4">
-						<div class="items">
-							<img src="resources/images/kim.png">
-							<button>ADD TO CART</button>
-							<div class="details">
-								<p class="item-type">pokemon</p>
-								<p class="item-name">Kimachu</p>
-								<div>
-									<p class="item-price">-126$</p>
-									<p class="item-price crossed">-3$</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-4">
-						<div class="items">
-							<img src="resources/images/trump.png">
-							<button>ADD TO CART</button>
-							<div class="details">
-								<p class="item-type">pokemon</p>
-								<p class="item-name">Trumpypuff</p>
-								<div>
-									<p class="item-price">500$</p>
-									<p class="item-price crossed">12 LEI</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-4">
-						<div class="items">
-							<img src="resources/images/iohannis.png">
-							<button>ADD TO CART</button>
-							<div class="details">
-								<p class="item-type">pokemon</p>
-								<p class="item-name">Iohannditto</p>
-								<div>
-									<p class="item-price">1 pensie</p>
-									<p class="item-price crossed">2 pensii</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col-4">
-						<div class="items">
-							<img src="resources/images/viorica.jpg
-							">
-							<button>ADD TO CART</button>
-							<div class="details">
-								<p class="item-type">producator</p>
-								<p class="item-name">Vyorycha (de analfabetism)</p>
-								<div>
-									<p class="item-price">4356</p>
-									<p class="item-price crossed">82</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-4">
-						<div class="items">
-							<img src="resources/images/vadim.png">
-							<button>ADD TO CART</button>
-							<div class="details">
-								<p class="item-type">purificator</p>
-								<p class="item-name">Vadim Tudor (de unguri)</p>
-								<div>
-									<p class="item-price">Un Kürtőskalács</p>
-									<p class="item-price crossed">O pitica nenorocita</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-4">
-						<div class="items">
-							<img src="resources/images/dragnea.png">
-							<button>ADD TO CART</button>
-							<div class="details">
-								<p class="item-type">purificator</p>
-								<p class="item-name">Dragnea (de bani)</p>
-								<div>
-									<p class="item-price">Tot ∞ dar mai ieftin</p>
-									<p class="item-price crossed">∞</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-4">
-						<div class="items">
-							<img src="resources/images/hitler.png">
-							<button>ADD TO CART</button>
-							<div class="details">
-								<p class="item-type">purificator</p>
-								<p class="item-name">Hitler (de evrei)</p>
-								<div>
-									<p class="item-price">Doar evrei</p>
-									<p class="item-price crossed">Scrumiera cu evrei</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-4">
-						<div class="items">
-							<img src="resources/images/vadim.png">
-							<button>ADD TO CART</button>
-							<div class="details">
-								<p class="item-type">purificator</p>
-								<p class="item-name">Vadim Tudor (de unguri)</p>
-								<div>
-									<p class="item-price">Un Kürtőskalács</p>
-									<p class="item-price crossed">O pitica nenorocita</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-4">
-						<div class="items">
-							<img src="resources/images/dragnea.png">
-							<button>ADD TO CART</button>
-							<div class="details">
-								<p class="item-type">purificator</p>
-								<p class="item-name">Dragnea (de bani)</p>
-								<div>
-									<p class="item-price">Tot ∞ dar mai ieftin</p>
-									<p class="item-price crossed">∞</p>
-								</div>
-							</div>
-						</div>
+					<div>
+						<span>Total:</span>
+						<span id="in-stock">2198$</span>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-
 	<div class="container-11">
 		<div class="container">
 			<div class="row">
